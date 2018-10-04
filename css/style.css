@@ -1,46 +1,48 @@
 body {
-	background-image: url(assets/images/paper_fibers.png);
-	overflow-x: hidden;
+    background-image: url(../images/mountains&lake.jpeg);
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
 	max-width: 100%;
 }
 
-#teal {
-    background-color: #4aaaa5;
+#navy {
+    background-color: navy;
 }
 
-#teal2 {
-    background-color: #4aaaa5;
+#navy2 {
+    background-color: navy;
 }
 
-#teal3 {
-    background-color: #4aaaa5;
+#navy3 {
+    background-color: navy;
 }
 
-#teal4 {
-    background-color: #4aaaa5;
+#navy4 {
+    background-color: navy;
 	border-radius: 0px !important;
 }
 
-#tealdiv {
-    background-color: #4aaaa5;
+#navydiv {
+    background-color: navy;
     /* width: 220px; */
 }
-#tealdiv1 {
-    background-color: #4aaaa5;
-    /* width: 220px; */
-}
-
-#tealdiv2 {
-    background-color: #4aaaa5;
-    /* width: 220px; */
-}
-#tealdiv3 {
-    background-color: #4aaaa5;
+#navydiv1 {
+    background-color: navy;
     /* width: 220px; */
 }
 
-#tealdiv4 {
-    background-color: #4aaaa5;
+#navydiv2 {
+    background-color: navy;
+    /* width: 220px; */
+}
+#navydiv3 {
+    background-color: navy;
+    /* width: 220px; */
+}
+
+#navydiv4 {
+    background-color: navy;
     /* width: 220px; */
 }
 
@@ -79,8 +81,8 @@ hr {
 	padding-left: 0px;
 }
 
-.teal {
-    color: #4aaaa5;
+.navy {
+    color: navy;
 }
 
 .arial {
@@ -92,12 +94,18 @@ hr {
 }
 
 #footer {
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
   right: 0;
 }
 
+button {
+    max-width: 150px;
+    font-size: 12px;
+    background-color: navy;
+    border: 1px dashed blue;
+}
 
 
 
