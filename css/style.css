@@ -1,0 +1,148 @@
+body {
+	background-image: url(assets/images/paper_fibers.png);
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+#teal {
+    background-color: #4aaaa5;
+}
+
+#teal2 {
+    background-color: #4aaaa5;
+}
+
+#teal3 {
+    background-color: #4aaaa5;
+}
+
+#teal4 {
+    background-color: #4aaaa5;
+	border-radius: 0px !important;
+}
+
+#tealdiv {
+    background-color: #4aaaa5;
+    /* width: 220px; */
+}
+#tealdiv1 {
+    background-color: #4aaaa5;
+    /* width: 220px; */
+}
+
+#tealdiv2 {
+    background-color: #4aaaa5;
+    /* width: 220px; */
+}
+#tealdiv3 {
+    background-color: #4aaaa5;
+    /* width: 220px; */
+}
+
+#tealdiv4 {
+    background-color: #4aaaa5;
+    /* width: 220px; */
+}
+
+#no-ptb {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#mb-0 {
+    margin-bottom: 0px;
+}
+
+#mb1-0 {
+    margin-bottom: 0px;
+}
+
+#mb2-0 {
+    margin-bottom: 0px;
+}
+
+hr {
+	width: 880px;
+}
+
+#jumbo-fix {
+	padding-bottom: 36px;
+	margin-bottom: 48px;
+	padding-top: 0px;
+}
+
+#pt-fix {
+	padding-top: 30px;
+}
+
+#pl-fix {
+	padding-left: 0px;
+}
+
+.teal {
+    color: #4aaaa5;
+}
+
+.arial {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.no-border {
+    border: none;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+    .card-img-overlay {
+		width: 50%;
+		
+	}
+	
+	/* .row {
+		width: 500px;
+		margin: 0 auto;
+	} */
+}
+
+/*works for header row*/
+@media (min-width: 768px) and (max-width: 980px) {
+	hr {
+		width: 640px;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+	#no-ptb {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	hr {
+		width: 460px;
+	}
+	img {
+		width: 100px;
+	}
+}
+
+@media (max-width: 640px) {
+	#no-ptb {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	hr {
+		width: 880px;
+	}
+}
