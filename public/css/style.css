@@ -7,9 +7,8 @@ body {
 }
 .first-view {
     background-image: url(./../images/blue-sky.jpg);
-    background-size: cover cover;
+    background-size: cover;
     zoom: 80%;
-    background-repeat: no-repeat;
 }
 
 #navbar {
@@ -21,9 +20,58 @@ body {
 
 #title {
     margin-top: 10%;
-    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 20px;
+    font-size: 26px;
     text-align: center;
+    text-shadow: 1px 1px 1px #000;
 }
+
+#role {
+    font-family: "Titillium Web";
+    text-align: center;
+    font-size: 63px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.sep {
+    min-height: 2px;
+    max-height: 2px;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* titillium-web-regular - latin */
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/titillium-web-v6-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'),
+         url('../fonts/titillium-web-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v6-latin-regular.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  /* titillium-web-900 - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/titillium-web-v6-latin-900.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Black'), local('TitilliumWeb-Black'),
+         url('../fonts/titillium-web-v6-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v6-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v6-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v6-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v6-latin-900.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+
 .fwt {
     font-weight: 100;
 
@@ -40,20 +88,53 @@ body {
     background-color: #ffffff;
     opacity: .95;
     width: 800px;
+    height: 40%;
+    top: 100px;
+}
+.skill-title {
+    font-size: 30px;
+}
+
+.txt-size {
+    font-size: 39px;
 }
 
 .high {
-    font-size: 39px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Titillium Web";
     padding: 10px;
-    background: -webkit-linear-gradient(rgb(123, 123, 123), rgb(18, 138, 156), rgb(123, 123, 123));
+    background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(137, 174, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.ht-tm-codeblock {
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    text-align: right;
+}
+.right {
+    text-align: right;
 }
 
 .sh-link {
     color: white;
-    text-align: right;
+    top: 20%;
+    font-family: "Titillium Web";
+  }
+  
+.sh-link a {
+    transition: all 0.3s ease;
+    color: black;
+  }
+
+.sh-link a:hover{
+    color: rgb(255, 200, 0);
+    font-style: italic;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 #carouselExampleControls {
@@ -64,6 +145,9 @@ body {
     text-align: center;
 }
 
+#content {
+    margin-bottom: 20%;
+}
 
 .carousel-item {
     position: relative absolute;
@@ -82,7 +166,7 @@ body {
 }
 
 #N {
-    color: darkcyan;
+    color: darkslategray;
 }
 #D {
     color: blue;
@@ -94,31 +178,39 @@ body {
     color: purple;
 }
 #W {
-    color: teal;
+    color: darkorchid;
 }
 #S {
     color: darkmagenta;
 }
 #C {
-    color: darkolivegreen;
+    color: royalblue;
 }
 #H {
-    color: green;
+    color: darkslateblue;
 }
 #L {
-    color: gray;
+    color: brown;
 }
 #G {
     color: maroon;
 }
 
-
 #body {
     margin-bottom: 10%;
 }
 
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skill {
+    font-size: 20px;
+}
+
 #optionBtn {
     margin-bottom: 30%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #profImg {
@@ -233,7 +325,7 @@ button {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
-    top: 30%;
+    top: 20%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -275,14 +367,15 @@ button {
   /* end SM styling */
   
 #progress-box {
-    padding-top: 100px;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-bottom: 100px;
-    margin: 100px;
     border: 3px solid #0f7ff5;
     background-color: #383838;
-    border-radius: 155px;
+    border-radius: 100px;
+    margin-bottom: 25%;
+    padding-bottom: 10px;
+}
+
+.progress-bar {
+    background: -webkit-linear-gradient(rgb(0, 242, 255),rgb(0, 115, 255));
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
