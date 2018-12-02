@@ -1,0 +1,38 @@
+text file
+
+   <!-- Sidebar  -->
+          <nav id="sidebar-wrapper">
+
+            <div class="sidebar-header">
+              <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <h3>Contact Info</h3>
+                <strong>AS</strong>
+              </a>
+            </div>
+
+            <ul class="list-unstyled components">
+              <li class="active">
+                <!-- <i class="fas fa-home"></i> -->
+
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                  <li>
+                    <a href="https://www.linkedin.com/in/andrewschlegel09/" target="_blank">LinkedIn</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/aschlegel09" target="_blank">Github</a>
+                  </li>
+                  <li>
+                    <a href="http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=aschlegel09@gmail.com&su=" target="_blank">GMail</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+          </nav>
+
+
+          href="https://aschlegel09.github.io/unit-4-game/"
+          href="https://aschlegel09.github.io/TriviaGame/"
+           href="https://aschlegel09.github.io/Word-Guess-Game/"
+           href="https://aschlegel09.github.io/Project-One/"
+           https://sheltered-coast-46834.herokuapp.com/

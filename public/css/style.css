@@ -1,0 +1,331 @@
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.first-view {
+    background-image: url(./../images/blue-sky.jpg);
+    background-size: cover cover;
+    zoom: 80%;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    top: 0 auto;
+    right: 0;
+    position: fixed;
+    padding-top: 70px;
+}
+
+#title {
+    margin-top: 10%;
+    font-family: monospace;
+    text-align: center;
+}
+.fwt {
+    font-weight: 100;
+
+}
+
+.car-image {
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+}
+.carousel-caption {
+    margin: 0 auto;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: .95;
+    width: 800px;
+}
+
+.high {
+    font-size: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background: -webkit-linear-gradient(rgb(123, 123, 123), rgb(18, 138, 156), rgb(123, 123, 123));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sh-link {
+    color: white;
+    text-align: right;
+}
+
+#carouselExampleControls {
+    background-color: black;
+    
+}
+#carousel {
+    text-align: center;
+}
+
+
+.carousel-item {
+    position: relative absolute;
+    margin: 0 auto;
+    align-content: center;
+    max-height: 350px;
+}
+
+#Z {
+    /* line-height: 150%; */
+    font-size: 150%;
+}
+
+#A {
+    color: black;
+}
+
+#N {
+    color: darkcyan;
+}
+#D {
+    color: blue;
+}
+#R {
+    color: darkgreen;
+}
+#E {
+    color: purple;
+}
+#W {
+    color: teal;
+}
+#S {
+    color: darkmagenta;
+}
+#C {
+    color: darkolivegreen;
+}
+#H {
+    color: green;
+}
+#L {
+    color: gray;
+}
+#G {
+    color: maroon;
+}
+
+
+#body {
+    margin-bottom: 10%;
+}
+
+#optionBtn {
+    margin-bottom: 30%;
+}
+
+#profImg {
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 140px;
+}
+
+#navy {
+    background-color: navy;
+}
+
+#navy2 {
+    background-color: navy;
+}
+
+#navy3 {
+    background-color: navy;
+}
+
+#navy4 {
+    background-color: navy;
+	border-radius: 0px !important;
+}
+
+#navydiv {
+    background-color: navy;
+    /* width: 220px; */
+}
+#navydiv1 {
+    background-color: navy;
+    /* width: 220px; */
+}
+
+#navydiv2 {
+    background-color: navy;
+    /* width: 220px; */
+}
+#navydiv3 {
+    background-color: navy;
+    /* width: 220px; */
+}
+
+#navydiv4 {
+    background-color: navy;
+    /* width: 220px; */
+}
+
+#no-ptb {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#mb-0 {
+    margin-bottom: 0px;
+}
+
+#mb1-0 {
+    margin-bottom: 0px;
+}
+
+#mb2-0 {
+    margin-bottom: 0px;
+}
+
+hr {
+	width: 880px;
+}
+
+#jumbo-fix {
+	padding-bottom: 36px;
+	margin-bottom: 48px;
+	padding-top: 0px;
+}
+
+#pt-fix {
+	padding-top: 30px;
+}
+
+#pl-fix {
+	padding-left: 0px;
+}
+
+.navy {
+    color: navy;
+}
+
+.arial {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.no-border {
+    border: none;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+button {
+    max-width: 150px;
+    font-size: 12px;
+    background-color: navy;
+    border: 1px dashed blue;
+}
+/* SM style */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+  }
+  
+  .github {
+    background: #000000;
+    color: white;
+  }
+
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  /* end SM styling */
+  
+#progress-box {
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    margin: 100px;
+    border: 3px solid #0f7ff5;
+    background-color: #383838;
+    border-radius: 155px;
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+    .card-img-overlay {
+		width: 50%;
+		
+	}
+	
+	/* .row {
+		width: 500px;
+		margin: 0 auto;
+	} */
+}
+
+/*works for header row*/
+@media (min-width: 768px) and (max-width: 980px) {
+	hr {
+		width: 640px;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+	#no-ptb {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	hr {
+		width: 460px;
+	}
+	img {
+		width: 100px;
+	}
+}
+
+@media (max-width: 640px) {
+	#no-ptb {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	hr {
+		width: 880px;
+	}
+}
