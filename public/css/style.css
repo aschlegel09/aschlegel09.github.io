@@ -4,6 +4,10 @@ body {
     background-size: cover cover;
     background-repeat: no-repeat;
     max-width: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
 }
 .first-view {
     background-image: url(./../images/blue-sky.jpg);
@@ -74,13 +78,13 @@ body {
 
 .fwt {
     font-weight: 100;
-
 }
 
 .car-image {
     margin: 0 auto;
     position: relative;
     width: 800px;
+    height: 100%;
 }
 .carousel-caption {
     margin: 0 auto;
@@ -106,6 +110,11 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.custom-nav {
+    background: -webkit-linear-gradient(rgb(29, 29, 29), rgb(0, 13, 39));
+}
+
 .ht-tm-codeblock {
     font-size: 20px;
 }
@@ -198,6 +207,7 @@ body {
 
 #body {
     margin-bottom: 10%;
+    background-color: #000;
 }
 
 .open-sans {
@@ -279,7 +289,9 @@ body {
 }
 
 hr {
-	width: 880px;
+	width: 600px;
+    background-color: white;
+    margin-bottom: 5%;
 }
 
 #jumbo-fix {
@@ -367,8 +379,15 @@ button {
   /* end SM styling */
   
 #progress-box {
-    border: 3px solid #0f7ff5;
-    background-color: #383838;
+    border: 2px solid #0f7ff5;
+    background-color: transparent;
+    border-radius: 100px;
+    margin-bottom: 25%;
+    padding-bottom: 10px;
+}
+#progress-box2 {
+    border: 2px solid #0f7ff5;
+    background-color: transparent;
     border-radius: 100px;
     margin-bottom: 25%;
     padding-bottom: 10px;
