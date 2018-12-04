@@ -22,4 +22,9 @@ $(document).ready(function () {
             opacity: 0
         })
     });
+
+    $("#toTop").click(function() {
+        $("body").scrollTop(0);
+        event.preventDefault;
+    });
 });

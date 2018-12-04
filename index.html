@@ -76,13 +76,14 @@
     </div>
     <!-- CAROUSEL -->
     <div class="container-fluid car-bg">
-      
+
       <div class="row">
 
         <div class="col-12" id="content">
           <div class="ht-tm-cat">
             <a id="carousel" class="ht-anchor">
-              <h5 class="ht-tm-cat-title high txt-size">APPLICATIONS</h5>  <hr>
+              <h5 class="ht-tm-cat-title high txt-size">APPLICATIONS</h5>
+              <hr>
             </a>
             <div id="carouselExampleControls" class="ht-tm-element carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
@@ -226,7 +227,7 @@
 
           <div class="col-md-12">
             <!-- Design skills -->
-            <div class="ml-5 mr-5 mb-3 mt-1">
+            <div class="ml-5 mr-5 mb-1 mt-1">
               <h2 class="high text-center skill-title">Design</h2>
               <div class="ht-tm-codeblock text-white">
                 <h3 class="skill">Photoshop</h3>
@@ -281,10 +282,60 @@
       </div>
     </div>
 
-    <hr>
+    <section class="jumbotron bg-primary mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 pt-xl">
+            <h2 class="high text-center txt-size">Contact Me Today</h2>
+            <hr>
+          </div>
+        </div>
+        <form id="contactForm" action="./php/contact-form.php" method="POST">
+          <div class="form-group">
+            <div class="col-md-12">
+              <label>First Name:</label>
+              <input pattern="[A-Za-z]" class="form-control" type='text' value='' data-msg-required="Please enter your first name."
+                placeholder="John" maxlength="50" name="firstName" aria-required="true">
+            </div>
+            <div class="col-md-12">
+              <label>Last Name:</label>
+              <input pattern="[A-Za-z]" class="form-control" type='text' value='' data-msg-required="Please enter your last name."
+                placeholder="Doe" maxlength="50" name="lastName" aria-required="true">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-12">
+              <label>Email Address:</label>
+              <input pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$' class="form-control" type='email' value='' data-msg-required="Please enter your email address."
+                data-msg-email="Please enter a valid email address." placeholder="example@gmail.com" maxlength="50"
+                name="email">
+            </div>
+            <div class="col-md-12">
+              <label>Inquiry:</label>
+              <input class="form-control" rows="10" data-msg-required="Please write your message."
+                placeholder="I would like to discuss..." maxlength="5000" name="message">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+            <input type="submit" value="Send Message" id="submit" class="ml-3 btn btn-danger btn-lg" data-loading-text="Loading...">
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>
+<br>
+<br><br>
     <!-- START FOOTER -->
     <div class="navbar navbar-dark bg-dark fixed-bottom" id="pageFooter">
       <div class="container-fluid">
+        <div class="row mr-auto">
+          <div class="col text-white">
+            <small> <b> <a href="#" id="toTop">Back to Top</a></b></small>
+          </div>
+        </div>
+
         <div class="row ml-auto">
           <div class="col text-white">
             <small> <b> Andrew Schlegel | 2018</b> </small>
@@ -292,6 +343,9 @@
         </div>
       </div>
     </div>
+
+
+    <!-- start scripts -->
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Popper.JS -->
@@ -301,7 +355,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
       crossorigin="anonymous"></script>
     <script type='text/javascript' src='./public/javascript/script.js'></script>
-
 </body>
 
 </html>
