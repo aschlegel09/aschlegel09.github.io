@@ -27,4 +27,7 @@ $(document).ready(function () {
         $("body").scrollTop(0);
         event.preventDefault;
     });
+    $("#submit").click(function() {
+        event.preventDefault;
+    });
 });

@@ -290,16 +290,16 @@
             <hr>
           </div>
         </div>
-        <form id="contactForm" action="./php/contact-form.php" method="POST">
+        <form id="contactForm" action="<?php echo htmlspecialchars($_SERVER[PHP_SELF]);?>" method="POST">
           <div class="form-group">
             <div class="col-md-12">
               <label>First Name:</label>
-              <input pattern="[A-Za-z]" class="form-control" type='text' value='' data-msg-required="Please enter your first name."
+              <input pattern="[A-Za-z]+" class="form-control" type="text" value="" title="This is an error." data-msg-required="Please enter your first name."
                 placeholder="John" maxlength="50" name="firstName" aria-required="true">
             </div>
             <div class="col-md-12">
               <label>Last Name:</label>
-              <input pattern="[A-Za-z]" class="form-control" type='text' value='' data-msg-required="Please enter your last name."
+              <input pattern="[A-Za-z]+" class="form-control" type='text' value='' data-msg-required="Please enter your last name."
                 placeholder="Doe" maxlength="50" name="lastName" aria-required="true">
             </div>
           </div>
