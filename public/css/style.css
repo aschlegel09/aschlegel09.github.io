@@ -11,16 +11,27 @@
     background-color: gray !important;
 }
 
+.carousel-control-prev-icon {
+    color: gray !important;
+    background-color: gray !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    overflow-x: hidden;
+    min-height: 100vh;
+    max-width: 400px;
     margin: 0 auto;
     background-size: cover cover;
     background-repeat: no-repeat;
-    max-width: 100%;
     width: 100%;
     left: 0;
     top: 0;
-    background-color: #fff;
+    background-color: lightgray;
 }
 .first-view {
     background-image: url(./../images/blue-sky.jpg);
