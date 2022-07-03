@@ -23,7 +23,7 @@ body {
     background-size: cover cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    width: 100%;
+    width: auto;
     left: 0;
     top: 0;
     background-color: #fff;
@@ -81,7 +81,7 @@ body {
     min-height: 2px;
     max-height: 2px;
     background-color: white;
-    width: 20%;
+    width: auto;
     text-align: center;
     margin: 0 auto;
 }
@@ -121,7 +121,7 @@ body {
 .car-image {
     margin: 0 auto;
     position: relative;
-    width: 800px;
+    width: auto;
     height: 100%;
 }
 .carousel-caption {
@@ -129,9 +129,10 @@ body {
     position: absolute;
     background-color: #ffffff;
     opacity: .95;
-    width: 800px;
+    width: auto;
     height: 40%;
     top: 100px;
+    max-width: 100%;
 }
 .skill-title {
     font-size: 30px;
@@ -330,9 +331,10 @@ body {
 }
 
 hr {
-	width: 600px;
+	width: auto;
     background-color: white;
     margin-bottom: 5%;
+    max-width: 100%;
 }
 
 #jumbo-fix {
@@ -363,7 +365,7 @@ hr {
 
 #footer {
   position: relative;
-  width: 100%;
+  width: auto;
   bottom: 0;
   right: 0;
   background-color: gray;
