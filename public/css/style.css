@@ -70,7 +70,7 @@ body {
 #title {
     margin-top: 10%;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     font-size: 26px;
     text-align: center;
     text-shadow: 1px 1px 1px #000;
@@ -79,10 +79,11 @@ body {
 #role {
     font-family: "Arial";
     text-align: center;
-    font-size: 63px;
+    /* font-size: 40px; */
     font-weight: 900;
     /* letter-spacing: 5px; */
     text-shadow: 4px 4px 4px #aaa;
+
 }
 
 .sep {
