@@ -80,7 +80,7 @@ body {
 #role {
     font-family: "Arial";
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 900;
     /* letter-spacing: 5px; */
     text-shadow: 4px 4px 4px #aaa;
@@ -511,5 +511,8 @@ button {
 	}
     #title {
         font-size: 26px;
+    }
+    #role {
+        font-size: 18px;
     }
 }
