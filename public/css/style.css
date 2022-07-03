@@ -16,6 +16,10 @@
     background-color: gray !important;
 }
 
+li a {
+    display: block;
+    
+}
 
 body {
     overflow-x: hidden;
