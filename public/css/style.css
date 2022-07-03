@@ -71,10 +71,11 @@ body {
     margin-top: 10%;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 10px;
-    font-size: 26px;
+    font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px 1px #000;
 }
+
 
 #role {
     font-family: "Arial";
@@ -144,11 +145,11 @@ body {
     max-width: 100%;
 }
 .skill-title {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .txt-size {
-    font-size: 39px;
+    font-size: 24px;
 }
 
 .high {
@@ -493,6 +494,14 @@ button {
 		width: 880px;
 	}
 }*/
+
+.fa {
+    size: 3em;
+    width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
 @media (max-width: 640px) {
 	.fa {
 		size: 10em;
@@ -500,4 +509,7 @@ button {
         height: auto;
         margin: 0 auto
 	}
+    #title {
+        font-size: 26px;
+    }
 }
