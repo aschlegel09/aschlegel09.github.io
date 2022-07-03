@@ -448,7 +448,7 @@ button {
     background: -webkit-linear-gradient(rgb(0, 242, 255),rgb(0, 115, 255));
 }
 
-@media (min-width: 640px) and (max-width: 768px) {
+/* @media (min-width: 640px) and (max-width: 768px) {
     .navbar-nav {
         float: none;
     }
@@ -456,19 +456,19 @@ button {
 		width: 50%;
 		
 	}
-	
+	*/
 	/* .row {
 		width: 500px;
 		margin: 0 auto;
 	} */
-}
+/*}*/
 
 /*works for header row*/
-@media (min-width: 768px) and (max-width: 980px) {
+/*@media (min-width: 768px) and (max-width: 980px) {
 	hr {
 		width: 640px;
-	}
-}
+	}/*
+/*}/*
 
 @media (min-width: 640px) and (max-width: 768px) {
 	#no-ptb {
