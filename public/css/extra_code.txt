@@ -39,3 +39,20 @@ text file
 
 
            <li class="sh-link right"><a href="./showcase.html" target="_blank">Showcase</a></li>
+
+
+
+           <!-- animate text -->
+          <h1 class="display-1" id="title"><span id="A">A</span><span id="N">N</span><span id="D">D</span><span id="R">R</span><span
+              id="E">E</span><span id="W">W </span><span id="S">S</span><span id="C">C</span><span id="H">H</span><span
+              id="L">L</span><span id="E">E</span><span id="G">G</span><span id="E">E</span><span id="L">L</span></h1><br><br>
+          <h1 id="role">DEVELOPER<br>
+            <div class="sep"></div>
+            DESIGNER<br>
+            <div class="sep"></div>
+            MARKETER
+          </h1>
+          <button type="button" class="btn btn-dark btn-lg" id="optionBtn">.animate.</button>
+
+
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:900" rel="stylesheet">

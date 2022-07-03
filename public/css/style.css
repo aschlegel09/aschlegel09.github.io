@@ -67,32 +67,33 @@ body {
     margin: 0 auto;
 }
 
-/* titillium-web-regular - latin */
+/* titillium-web-regular - latin 
 @font-face {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/titillium-web-v6-latin-regular.eot'); 
+    src: url('../fonts/titillium-web-v6-latin-regular.eot'); */
     /* src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), */
          /* url('../fonts/titillium-web-v6-latin-regular.eot?#iefix') format('embedded-opentype'), IE6-IE8 */
          /* url('../fonts/titillium-web-v6-latin-regular.woff2') format('woff2'), Super Modern Browsers */
          /* url('../fonts/titillium-web-v6-latin-regular.woff') format('woff'), Modern Browsers */
          /* url('../fonts/titillium-web-v6-latin-regular.ttf') format('truetype'), Safari, Android, iOS */
          /* url('../fonts/titillium-web-v6-latin-regular.svg#TitilliumWeb') format('svg'); Legacy iOS */
-  }
+  /*}*/
   /* titillium-web-900 - latin */
-  @font-face {
+  /* @font-face {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/titillium-web-v6-latin-900.eot');
+    src: url('../fonts/titillium-web-v6-latin-900.eot');*/
     /* src: local('Titillium Web Black'), local('TitilliumWeb-Black'), */
          /* url('../fonts/titillium-web-v6-latin-900.eot?#iefix') format('embedded-opentype'), IE6-IE8 */
          /* url('../fonts/titillium-web-v6-latin-900.woff2') format('woff2'), Super Modern Browsers */
          /* url('../fonts/titillium-web-v6-latin-900.woff') format('woff'), Modern Browsers */
          /* url('../fonts/titillium-web-v6-latin-900.ttf') format('truetype'), Safari, Android, iOS */
          /* url('../fonts/titillium-web-v6-latin-900.svg#TitilliumWeb') format('svg'); Legacy iOS */
-  }
+  /*}*/
+  
 
 .fwt {
     font-weight: 100;
@@ -124,13 +125,13 @@ body {
 .high {
     font-family: "Arial";
     padding: 10px;
-    background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(137, 174, 255));
+    background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(236, 236, 236));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .custom-nav {
-    background: -webkit-linear-gradient(rgb(29, 29, 29), rgb(0, 13, 39));
+    background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(236, 236, 236));
 }
 
 .ht-tm-codeblock {
