@@ -16,6 +16,13 @@
     background-color: gray !important;
 }
 
+.container-fluid {
+    min-height: 100vh;
+    max-width: 100%;
+    align-content: center;
+    margin: 0 auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,10 +32,10 @@
 body {
     min-height: 100vh;
     max-width: 100%;
+    align-content: center;
     margin: 0 auto;
     background-size: cover cover;
     background-repeat: no-repeat;
-    width: 100%;
     left: 0;
     top: 0;
     background-color: lightgray;
