@@ -1,9 +1,13 @@
-container-fluid {
-    overflow-x: hidden; 
-}
+
 
 .ht-tm-cat {
     background-color:white !important;
+}
+.ht-tm-cat-title {
+    color: black;
+}
+.carousel-control-next-icon {
+    color: gray !important;
 }
 
 body {
@@ -133,7 +137,7 @@ body {
 .high {
     font-family: "Arial";
     padding: 10px;
-    background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(236, 236, 236));
+    color: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
