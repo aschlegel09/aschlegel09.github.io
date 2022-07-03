@@ -79,7 +79,7 @@ body {
 #role {
     font-family: "Arial";
     text-align: center;
-    /* font-size: 40px; */
+    font-size: 18px;
     font-weight: 900;
     /* letter-spacing: 5px; */
     text-shadow: 4px 4px 4px #aaa;
@@ -131,7 +131,7 @@ body {
     margin: 0 auto;
     position: relative;
     width: auto;
-    height: 100%;
+    height: auto;
 }
 .carousel-caption {
     margin: 0 auto;
