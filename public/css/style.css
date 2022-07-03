@@ -18,7 +18,7 @@
 
 li a {
     display: block;
-    
+
 }
 
 body {
@@ -465,9 +465,9 @@ button {
 	hr {
 		width: 640px;
 	}/*
-/*}/*
+/*}*/
 
-@media (min-width: 640px) and (max-width: 768px) {
+/*@media (min-width: 640px) and (max-width: 768px) {
 	#no-ptb {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -479,7 +479,6 @@ button {
 		width: 100px;
 	}
 }
-
 @media (max-width: 640px) {
 	#no-ptb {
 		padding-left: 0px;
@@ -487,5 +486,13 @@ button {
 	}
 	hr {
 		width: 880px;
+	}
+}*/
+@media (max-width: 640px) {
+	.fa {
+		size: 10em;
+        width: 100%;
+        height: auto;
+        margin: 0 auto
 	}
 }
