@@ -164,10 +164,13 @@ body {
 .right {
     text-align: right;
 }
+.left {
+    text-align: left;
+}
 
 .sh-link {
-    color: white;
-    top: 20%;
+    color: black;
+    top: 5%;
     font-family: "Arial";
   }
   
@@ -176,12 +179,12 @@ body {
     color: black;
   }
 
-.sh-link a:hover{
-    color: rgb(255, 200, 0);
+/*.sh-link a:hover{
+    color: black;
     font-style: italic;
     text-decoration: none;
-    font-size: 12px;
-}
+    font-size: 24px;
+}*/
 
 #carouselExampleControls {
     background-color: white;
