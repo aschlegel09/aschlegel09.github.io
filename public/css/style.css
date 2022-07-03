@@ -140,7 +140,12 @@ body {
     padding: 10px;
     color: black;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+
+.high2 {
+    font-family: "Arial";
+    padding: 10px;
+    color: black;
 }
 
 .custom-nav {
