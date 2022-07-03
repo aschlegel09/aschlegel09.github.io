@@ -16,32 +16,17 @@
     background-color: gray !important;
 }
 
-.container-fluid {
-    min-height: 100vh;
-    max-width: 100%;
-    align-content: center;
-    margin: 0 auto;
-    overflow-x: hidden;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
 
 body {
-    min-height: 100vh;
-    max-width: 400px;
-    align-content: center;
+    overflow-x: hidden;
     margin: 0 auto;
     background-size: cover cover;
     background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
     left: 0;
     top: 0;
-    background-color: lightgray;
-    overflow-x: hidden;
+    background-color: #fff;
 }
 .first-view {
     background-image: url(./../images/blue-sky.jpg);
