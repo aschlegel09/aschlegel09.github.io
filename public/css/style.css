@@ -2,6 +2,10 @@ container-fluid {
     overflow-x: hidden; 
 }
 
+.ht-tm-cat {
+    background-color:white !important;
+}
+
 body {
     overflow-x: hidden;
     margin: 0 auto;
