@@ -150,14 +150,8 @@ body {
     font-family: "Arial";
     padding: 10px;
     color: black;
-    -webkit-background-clip: text;
 }
 
-.high2 {
-    font-family: "Arial";
-    padding: 10px;
-    color: black;
-}
 
 .custom-nav {
     background: -webkit-linear-gradient(rgb(236, 236, 236), rgb(236, 236, 236));
